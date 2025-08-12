@@ -1,0 +1,9 @@
+# Welcome to Mhatxotic Design live stream…
+
+## About…
+This repository contains a simple webpage with our embedded [youtube.com](https://youtube.com/@mhatxotic) live stream so there are no other distractions on the screen.
+
+## Privacy…
+This website contains absolutely zero first-party tracking but be advised that the third-party streaming services we use obviously do, thus [their privacy policies](https://policies.google.com/privacy) do apply.
+
+## Copyright © 2025 Mhatxotic Design, All Rights Reserved.
