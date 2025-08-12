@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!-- Homepage for the Mhatxotic Design live stream -->
+<!-- Copyright © 2026 Mhatxotic Design, All Rights Reserved Worldwide -->
+<HTML lang="en-GB">
+<HEAD>
+  <META charset="UTF-8">
+  <META name="apple-mobile-web-app-capable" content="yes">
+  <META name="apple-mobile-web-app-status-bar-style" content="black">
+  <META name="apple-mobile-web-app-title" content="Live Stream">
+  <META name="author" content="Mhatxotic Design">
+  <META name="copyright" content="Copyright © 2026 Mhatxotic Design, All Rights Reserved">
+  <META name="description" content="Welcome to the Mhatxotic Design live stream.">
+  <META name="format-detection" content="telephone=no">
+  <META name="generator" content="BBEdit 15.5.2">
+  <META name="google-site-verification" content="BvWxrqmgaIxqe_W8AW3OGK0fdCI_JfB_-gcOOxCF9_4">
+  <META name="googlebot" content="index,follow">
+  <META name="og:description" content="Welcome to the Mhatxotic Design live stream.">
+  <META name="og:image" content="https://repository-images.githubusercontent.com/1003966662/3e003339-bc6b-4672-a5cc-8b9362d4f219">
+  <META name="og:title" content="Mhatxotic Design Livestream">
+  <META name="og:url" content="https://mhatxotic.github.io/Live">
+  <META name="robots" content="index,follow">
+  <META name="theme-color" content="#000000">
+  <META name="viewport" content="width=device-width, initial-scale=1.0">
+  <LINK rel="icon" type="image/x-icon" href="favicon.ico">
+  <TITLE>Mhatxotic Design Live Stream</TITLE>
+  <STYLE>
+    * { margin:0px; padding:0px; border:none; overflow:hidden; font-size:0; }
+    HTML, BODY { background-color:black; text-align:center; }
+    #CONTAINER { display:flex; width:100vw; height:100vh; }
+    .DELAY { animation-delay: 30s; }
+    #PLAYER { z-index:1;
+              animation: EXPAND 0s ease-in-out forwards;
+              animation-delay: 30s; }
+    #BG { z-index:0; position:absolute; width:100%; height:100%;
+          background:transparent url('https://mhatxotic.github.io/index.gif');
+          filter:blur(10px); background-size:cover, contain;
+          background-position: center center; }
+    @keyframes EXPAND { to { width:100%;height:100% } }
+    @keyframes CONTRACT { to { width:0;height:0;visibility:hidden; } }
+    #CHAT { animation: CONTRACT 0s ease-in-out forwards;
+            animation-delay: 30s; }
+    #CONTENT { z-index:1;position:relative; top:50%;
+               transform:translateY(-50%); margin:0 20px 0 20px; }
+    #LOGO { width:75%; height:auto; }
+    P, B, I { text-shadow:1px 1px black;
+              font-family:helvetica, arial, sans-serif; }
+    P { color:silver; }
+    A { color:green; text-decoration:underline; font-weight:bold; }
+    B { color:white; }
+    I { color:red; }
+    /* Desktop browser style */
+    @media (min-width:768px) {
+      #PLAYER { flex:1; height:100%; }
+      #CHAT { width:340px; height:100%; }
+      P, B, I { font-size:3vh; }
+      #LOGO { max-width:320px; }
+    }
+    /* Mobile browser style */
+    @media (max-width:768px) {
+      #CONTAINER { flex-direction:column; }
+      #PLAYER { aspect-ratio:16 / 9; width:100%; height:auto; }
+      #CHAT { flex:1; width:100%; height:100%; overflow-y:scroll; }
+      P, B, I { font-size:2vh; }
+      #LOGO { max-width:128px; }
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <DIV id="CONTAINER">
+    <IFRAME id="PLAYER" frameborder="0" scrolling="no" allowfullscreen="true"
+      src="https://www.youtube.com/embed/live_stream?channel=UC_f6XnK-lXT3j-3-wddQt1Q&autoplay=1"></IFRAME>
+    <!--<IFRAME id="CHAT" frameborder="0" scrolling="no" allowfullscreen="false"
+      sandbox="allow-storage-access-by-user-activation allow-scripts
+        allow-same-origin allow-popups allow-popups-to-escape-sandbox
+        allow-modals" src="linktochat"></IFRAME>-->
+    <DIV id="CHAT">
+      <DIV id="BG"></DIV>
+      <DIV id="CONTENT">
+        <P>
+          This is the <B>Mhatxotic Design Live Broadcast</B> and thank you for
+          your interest.
+        </P>
+        <IMG id="LOGO" src="https://mhatxotic.github.io/index.png"/>
+        <P>
+          If the player states <I>“video unavailable”</I> then the
+          live broadcast is offline so please
+          <A href="javascript:location.reload();"><B>refresh</B></a> or try
+          again another time and <A href="https://youtube.com/@Mhatxotic">
+          <B>subscribe</B></A> for notifications.
+        </P>
+      </DIV>
+    </DIV>
+  </DIV>
+</BODY>
+</HTML>
