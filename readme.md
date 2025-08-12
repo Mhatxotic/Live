@@ -1,0 +1,9 @@
+# Welcome to Mhatxotic Design live stream…
+
+## About…
+This repository contains a webpage with our embedded [kick.com](https://kick.com/mhatxotic) live stream along with our [kick.com](https://kick.com/popout/mhatxotic/chat) chat.
+
+## Issues…
+It appears that one is unable to interact with the chat yet which is believed to be an issue on the Kick server side.
+
+## Copyright © 2025 Mhatxotic Design, All Rights Reserved.
